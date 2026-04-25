@@ -1,2 +1,2 @@
-# Toninos-s-MeteMods
-Instalador de mos par aMinecraft
+# Toninos's MeteMods
+Instalador de mods para Minecraft.

@@ -15,8 +15,10 @@ body {
 
 /* LOGO */
 .logo {
-    width: 120px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 25px auto;
+    width: 40%;
+    max-width: 300px;
 }
 
 /* BOTON */

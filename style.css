@@ -1,8 +1,22 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0f172a;
     color: white;
+
+    background-image: url("background.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* OSCURECER FONDO */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
 }
 
 /* CONTENEDOR CENTRADO */
@@ -11,14 +25,22 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 40px 20px;
+
+    background: rgba(15, 23, 42, 0.85);
+    border-radius: 12px;
 }
 
-/* LOGO */
+/* LOGO GRANDE */
 .logo {
     display: block;
     margin: 0 auto 25px auto;
     width: 40%;
     max-width: 300px;
+}
+
+/* TITULOS */
+h1 {
+    margin-bottom: 10px;
 }
 
 /* BOTON */
@@ -36,6 +58,12 @@ body {
 
 .download-btn:hover {
     background: #2563eb;
+}
+
+/* NOMBRE ARCHIVO */
+.file-name {
+    font-size: 14px;
+    opacity: 0.8;
 }
 
 /* CHANGELOG */
